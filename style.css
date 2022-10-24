@@ -1,0 +1,263 @@
+
+    
+ 
+*{
+    margin: 0;
+    padding-left: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: #e7faee;
+
+}
+
+header{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.875px;
+
+}
+
+.link-header{
+    text-decoration: none;
+    margin-left: 32px;
+    margin-top: 47px;
+    color: #17233D;
+    border: 30 px solid transparent ;
+}
+
+.link-header:hover:not(.button-header){
+    background-color: rgb(255, 108, 108);
+    border: 30px solid rgb(255, 108, 108) ;
+    border-radius: 12px;
+ }
+
+.link-header:active:not(.button-header){
+    color: rgb(0, 204, 255);
+ }
+
+.button-header{
+    background: #6FBF44;
+    border: 18px solid #6FBF44;
+    border-radius: 12px;
+    margin-top: 32px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.button-header:active{
+    background-color: #c0dfb0;
+    border-color:  #c0dfb0;
+
+}
+
+h1{
+    width: 582px;
+    height: 164px;
+    left: 801px;
+    top: 342px;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    letter-spacing: 0.596154px;
+    color: #161A49;
+    margin-bottom:70px;
+    
+}
+
+span:first-child:hover{
+    color:#ff6f00;
+
+    font-size: 80px;
+    cursor: grab;
+}
+
+span:nth-child(2):hover{
+    color:#1aaee8;
+
+    font-size: 80px;
+    cursor: grab;
+}
+
+span:last-child:hover{
+    color:#ff51e2;
+
+    font-size: 80px;
+    cursor: grab;
+}
+
+
+p{
+    width: 493px;
+    height: 99px;
+    left: 801px;
+    top: 30px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #4B505A;
+    margin-bottom: 50px;
+}
+
+p:hover{
+    color: #b64338;
+}
+
+.learn-more{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    color: #6FBF44;
+    text-decoration: none;
+    margin-top: 55px;
+    cursor: pointer;
+}
+
+.learn-more:hover{
+    color:#FFFFFF;
+    background-color: rgb(16, 60, 154) ;
+   border: 30px solid  rgb(16, 60, 154) ;
+   border-radius: 30px;
+}
+
+.learn-more:active{
+    color:#1f0345;
+    background-color: rgb(59, 111, 225) ;
+   border: 30px solid   rgb(59, 111, 225)  ;
+   border-radius: 30px;
+}
+
+
+main{
+    display: inline-block;
+    margin-left: 95px;
+}
+
+img{
+    width: 1440px;
+    height: 1024px;
+    width: 595.18px;
+    height: 500px;
+    left: 121px;
+    top: 246px;
+    display: inline-block;
+    margin-top: 163px;
+    margin-left: 121px;
+
+}
+
+
+ @media screen and (orientation: portrait) and (max-width:768px){
+
+    span:first-child[disabled]:hover{
+        color:#ff6f00;
+    
+        font-size: 80px;
+        cursor: grab;
+    }
+    
+    span:nth-child(2)[disabled]:hover{
+        color:#1aaee8;
+    
+        font-size: 80px;
+        cursor: grab;
+    }
+    
+    span:last-child[disabled]:hover{
+        color:#ff51e2;
+    
+        font-size: 80px;
+        cursor: grab;
+    }
+    
+
+
+
+
+
+
+    .link-header{
+        display: none;
+    }
+
+    main{
+        width: 100%;
+        height: 70%;
+        padding: 0%;
+        margin: 0%;
+
+    }
+
+    img{
+        display: block;
+        height: 30%;
+        width: 100%;
+        margin: auto;
+        padding: 10%;
+    }
+
+    h1{
+        font-weight: 700;
+        font-size: 30px;
+        width: auto;
+        margin: 52px 50px 0 50px;
+        text-align: center;
+        line-height: 39px;
+    }
+    
+    p{ 
+        margin:0px 43px;
+        width: auto;
+        text-align: center;
+        font-weight: 400;
+        font-size: 18px;
+
+    }
+
+    div{
+        margin-top: 9%;
+    }
+
+    .learn-more{
+    
+        display: block;
+        position: absolute;
+        right: 40%;
+    }
+
+
+    .learn{
+        margin: 25px;
+
+    }
+
+    .button-header{
+        display: block;
+        background: #6FBF44;
+        border: 12px solid #6FBF44;
+        border-radius: 12px;
+        margin-top: 32px;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 24px;
+        letter-spacing: 1px;
+        color: #FFFFFF;
+        text-align: center;
+        cursor: pointer;
+        position: relative;
+        margin-left: 73%;
+    }
+
+
+  
+    
+}
+    
