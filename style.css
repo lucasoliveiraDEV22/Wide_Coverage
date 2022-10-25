@@ -154,110 +154,68 @@ img{
 
 }
 
+@media screen and (max-width:768px){
 
- @media screen and (orientation: portrait) and (max-width:768px){
-
-    span:first-child[disabled]:hover{
-        color:#ff6f00;
-    
-        font-size: 80px;
-        cursor: grab;
-    }
-    
-    span:nth-child(2)[disabled]:hover{
-        color:#1aaee8;
-    
-        font-size: 80px;
-        cursor: grab;
-    }
-    
-    span:last-child[disabled]:hover{
-        color:#ff51e2;
-    
-        font-size: 80px;
-        cursor: grab;
-    }
     
 
 
-
-
-
+   
 
     .link-header{
         display: none;
     }
 
     main{
-        width: 100%;
-        height: 70%;
-        padding: 0%;
-        margin: 0%;
-
-    }
-
-    img{
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+        height: 60vh;
         display: block;
-        height: 30%;
-        width: 100%;
-        margin: auto;
-        padding: 10%;
-    }
-
-    h1{
-        font-weight: 700;
-        font-size: 30px;
-        width: auto;
-        margin: 52px 50px 0 50px;
-        text-align: center;
-        line-height: 39px;
-    }
-    
-    p{ 
-        margin:0px 43px;
-        width: auto;
-        text-align: center;
-        font-weight: 400;
-        font-size: 18px;
-
-    }
-
-    div{
-        margin-top: 9%;
-    }
-
-    .learn-more{
-    
-        display: block;
-        position: absolute;
-        right: 40%;
-    }
-
-
-    .learn{
-        margin: 25px;
-
     }
 
     .button-header{
         display: block;
-        background: #6FBF44;
-        border: 12px solid #6FBF44;
-        border-radius: 12px;
-        margin-top: 32px;
-        font-weight: 500;
-        font-size: 13px;
-        line-height: 24px;
-        letter-spacing: 1px;
-        color: #FFFFFF;
-        text-align: center;
-        cursor: pointer;
         position: relative;
-        margin-left: 73%;
+        margin: 10% 0 0 9%;
     }
+
+     img{
+        margin: 0;
+        padding: 0;
+        display: block;
+        height: auto;
+        position: absolute;
+        top: 117%;
+        width: 90%;
+    } 
+
+    h1{
+        margin: 0;
+        text-align: center;
+        margin: 40% auto;
+
+    }
+
+
+    p{
+        margin: 0;
+        font-weight: 400;
+        font-size: 18px;
+        text-align: center;
+
+    }
+
+    .learn-more{
+        
+        margin: 0 auto;
+        display: block;
+    }
+ 
 
 
   
     
 }
-    
+
+
+
